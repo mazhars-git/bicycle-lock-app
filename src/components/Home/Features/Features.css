@@ -1,0 +1,17 @@
+
+.feature-bottom{
+    position: relative;
+    width: 70%;
+    margin: auto;
+}
+.feature-card{
+    position: absolute;
+    top: 32%;
+    left: 10%;
+    color: #fff;
+}
+.feature-btn{
+    position: absolute;
+    top: 40%;
+    right: 10%;
+}
