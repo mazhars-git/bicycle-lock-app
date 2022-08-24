@@ -13,9 +13,11 @@ const Footer = () => {
                     </div>
                     <div className="col-md-3">
                         <h2 className="semi-header">Company</h2>
-                        <p>Oedering Info</p>  
-                        <p>Nursery/Tree From</p>  
-                        <p>Peste & Weeds Control</p>  
+                        <ul>
+                            <li><a href="#">Oedering Info</a></li>  
+                            <li><a href="#">Nursery/Tree From</a></li>  
+                            <li><a href="#">Peste & Weeds Control</a></li>  
+                        </ul> 
                     </div>
                     <div className="col-md-3">
                         <h2 className="semi-header">Useful Links</h2>
