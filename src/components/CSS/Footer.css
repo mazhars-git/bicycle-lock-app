@@ -4,6 +4,26 @@
     background-repeat: no-repeat;
 }
 
+.footer{
+    border-bottom: 1px solid #fff;
+}
+
+.footer-text p{
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: bold;
+    color:rgb(253, 213, 194);
+}
+
+.logo-box img{
+    padding-bottom: 20px;
+}
+.logo-box p{
+    padding-top: 10px;
+    color: rgb(253, 213, 194);
+}
+
 .semi-header{
     font-weight: bold;
     color: #fff;
