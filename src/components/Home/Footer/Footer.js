@@ -11,20 +11,44 @@ const Footer = () => {
                 </div>
                 <div className="col-md-3">
                     <h2>Company</h2>
-                    <p>Privacy Policy</p>  
-                    <p>Carrier</p>  
-                    <p>Location</p>  
+                    <p>Oedering Info</p>  
+                    <p>Nursery/Tree From</p>  
+                    <p>Peste & Weeds Control</p>  
                 </div>
                 <div className="col-md-3">
                     <h2>Useful Links</h2>
-                    <p>Facebook</p>
-                    <p>Twitter</p>
-                    <p>Youtube</p>
+                    <div className="row">
+                        <div className="col-md-6">
+                            <ul>
+                                <li><a href="#">About </a></li>
+                                <li><a href="#">Pricing </a></li>
+                                <li><a href="#">Gift Cards </a></li>
+                                <li><a href="#">FAQ </a></li>
+                            </ul>
+                        </div>
+                        <div className="col-md-6">
+                            <ul>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Appointment</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Terms of Use</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
                 <div className="col-md-3">
                     <h2>Newsletters</h2>
-                    <input type="text"></input>
-                    <button>Submit</button>
+                    <div>
+                        <input className="form-control" type="text"></input>
+                        <button className="form-control">Submit</button>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><a href="#">facebook</a></li>
+                            <li><a href="#">facebook</a></li>
+                            <li><a href="#">facebook</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
