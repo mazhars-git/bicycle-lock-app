@@ -1,4 +1,7 @@
 import React from 'react';
+import { faFacebook, faTwitter, faWhatsapp, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Logo from '../../../images/logo new.png';
 import '../../CSS/Footer.css';
 
@@ -43,14 +46,15 @@ const Footer = () => {
                     <div className="col-md-3">
                         <h2 className="semi-header">Newsletters</h2>
                         <div className="d-flex">
-                            <input className="news-letter-input" type="text" placeholder="Enter your email"></input>
-                            <button className="news-letter-btn">Submit</button>
+                            <input className="news-letter-input" type="text" placeholder="Enter Your Email"></input>
+                            <button className="btn news-letter-btn"><FontAwesomeIcon icon={faArrowRight} /></button>
                         </div>
-                        <div >
-                            <ul className='d-flex justify-content-around'>
-                                <li><a href="#">fb</a></li>
-                                <li><a href="#">Yt</a></li>
-                                <li><a href="#">TW</a></li>
+                        <div className='pt-4 social-icon'>
+                            <ul className='d-flex'>
+                                <li><a href="#"><FontAwesomeIcon icon={faFacebook} /></a></li>
+                                <li><a href="#"><FontAwesomeIcon icon={faTwitter} /></a></li>
+                                <li><a href="#"><FontAwesomeIcon icon={faWhatsapp} /></a></li>
+                                <li><a href="#"><FontAwesomeIcon icon={faYoutube} /></a></li>
                             </ul>
                         </div>
                     </div>

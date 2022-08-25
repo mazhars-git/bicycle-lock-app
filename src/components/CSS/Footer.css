@@ -32,15 +32,25 @@
 }
 
 .news-letter-input{
-    padding: 8px;
+    padding: 12px 8px;
     width: 188px;
     border: none;
     border-radius: 5px 0 0 5px;
 }
 .news-letter-btn{
-    padding: 0 10px;
+    padding: 12px 10px;
     margin: 0;
     border: none;
     border-radius: 0 5px 5px 0;
     background-color: antiquewhite;
+}
+
+.social-icon ul li a{
+    color: #fff;
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+.social-icon ul li a:hover{
+    color: lightgray;
 }
