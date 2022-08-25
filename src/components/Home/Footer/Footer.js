@@ -43,8 +43,8 @@ const Footer = () => {
                     <div className="col-md-3">
                         <h2 className="semi-header">Newsletters</h2>
                         <div className="d-flex">
-                            <input className="form-control" type="text"></input>
-                            <button className="btn form-control">Submit</button>
+                            <input className="news-letter-input" type="text" placeholder="Enter your email"></input>
+                            <button className="news-letter-btn">Submit</button>
                         </div>
                         <div >
                             <ul className='d-flex justify-content-around'>
