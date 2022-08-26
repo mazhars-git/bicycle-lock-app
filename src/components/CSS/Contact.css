@@ -1,9 +1,30 @@
+.contact-info{
+    margin: 0 30px;
+}
+.contact-info h6{
+    font-size: 20px;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+.contact-info p{
+    color: rgb(131, 131, 131);
+}
+
+
 .contact-form{
     background-color: rgb(255, 253, 253);
     box-shadow: 1px 1px 25px gray;
     padding: 40px 25px;
+    margin-right: 25px;
 }
 
 .contact-form input, .contact-form textarea{
+    padding: 25px 10px;
     background-color: rgba(194, 194, 194, 0.212);
+}
+
+.contact-form .icon{
+    margin-top: 10px;
+    margin-left: -25px;
 }
