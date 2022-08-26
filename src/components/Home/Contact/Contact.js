@@ -11,7 +11,7 @@ const Contact = () => {
                 <div className="col-md-7 align-self-center">
                     <div className="contact-info">
                         <h5 className='semi-heading'>Contact Us</h5>
-                        <h3 className='small-heading py-2'>Get & Catch Anytime From Anywhere <br />We Are Available Anytime.</h3>
+                        <h3 className='small-heading'>Get & Catch Anytime From Anywhere <br />We Are Available Anytime.</h3>
                         <h6>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla odio corrupti qui, placeat iure sit.</h6>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam mollitia ullam repellat libero provident minima necessitatibus ratione eum aspernatur vitae.</p>
                     </div>
@@ -19,7 +19,7 @@ const Contact = () => {
 
                 <div className="col-md-5">
                     <div className="contact-form">
-                        <h2 className="small-heading pb-3">Get A Free Quote</h2>
+                        <h2 className="small-heading">Get A Free Quote</h2>
                         <form>
                             <div className="input-group form-group">                            
                                 <div className="input-group">
