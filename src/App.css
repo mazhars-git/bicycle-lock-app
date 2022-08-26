@@ -11,14 +11,14 @@
 .semi-heading{
   font-size: 20px;
   font-weight: bold;
-  color: orange;
+  color: #f77f00;
 }
 
 .btn-brand {
   border-radius: 30px !important;
   padding: 10px 25px !important;
-  background-color: #fff !important;
-  color: tomato !important;
+  background-color: #f77f00 !important;
+  color: #fff !important;
   font-weight: 600 !important;
 }
 

@@ -36,7 +36,7 @@ const Contact = () => {
                             </div>
                         </div>
 
-                        <button type="submit" class="btn btn-primary">Get In Touch</button>
+                        <button type="submit" class="btn btn-brand" style={{backgroundColor: 'orange'}}>Get In Touch</button>
                        
                         {/* <div className="input-group form-group">
                             <div className="input-group-prepend">

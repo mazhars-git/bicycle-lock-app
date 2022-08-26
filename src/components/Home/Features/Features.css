@@ -15,3 +15,11 @@
     top: 40%;
     right: 10%;
 }
+
+.btn-feature{
+    border-radius: 30px;
+    padding: 10px 25px;
+    background-color: #fff ;
+    color: #f77f00 ;
+    font-weight: 600 ;
+  }

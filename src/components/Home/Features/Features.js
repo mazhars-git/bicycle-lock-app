@@ -50,7 +50,7 @@ const Features = () => {
                     <h2>One of the best products <br /> for smart people</h2>
                 </div>
                 <div className="feature-btn">
-                    <button className="btn btn-brand">Shop Now</button>
+                    <button className="btn btn-feature">Shop Now</button>
                 </div>
             </div>
         </section>
