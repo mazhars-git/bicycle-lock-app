@@ -38,11 +38,12 @@
     border-radius: 5px 0 0 5px;
 }
 .news-letter-btn{
-    padding: 12px 10px;
+    padding: 12px 20px;
     margin: 0;
     border: none;
     border-radius: 0 5px 5px 0;
     background-color: antiquewhite;
+    color:rgb(255, 145, 94);
 }
 
 .social-icon ul li a{

@@ -1,5 +1,17 @@
-.App {
-  text-align: center;
+.big-heading{
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+.small-heading{
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+.semi-heading{
+  font-size: 20px;
+  font-weight: bold;
+  color: orange;
 }
 
 .btn-brand {
