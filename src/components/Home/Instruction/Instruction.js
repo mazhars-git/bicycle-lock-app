@@ -22,13 +22,13 @@ const Instruction = () => {
                             <div className="col-md-6">
                                 <div className="instruction-right-content">
                                     <img src={Device} alt="" />
-                                    <h5>Connect Device</h5>
+                                    <h4>Connect Device</h4>
                                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime tenetur odit dolores ea, itaque iure.</p>
                                     <a href="#">Learn More</a>
                                 </div>
                                 <div className="instruction-right-content mt-3">
                                     <img src={Configure} alt="" />
-                                    <h5>Configure It</h5>
+                                    <h4>Configure It</h4>
                                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime tenetur odit dolores ea, itaque iure.</p>
                                     <a href="#">Learn More</a>
                                 </div>
@@ -36,7 +36,7 @@ const Instruction = () => {
                             <div className="col-md-6 align-self-center">
                                 <div className="instruction-right-content">
                                     <img src={Done} alt="" />
-                                    <h5>Yah! Done</h5>
+                                    <h4>Yah! Done</h4>
                                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime tenetur odit dolores ea, itaque iure.</p>
                                     <a href="#">Learn More</a>
                                 </div>
