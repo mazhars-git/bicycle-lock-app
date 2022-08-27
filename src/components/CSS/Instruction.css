@@ -1,0 +1,16 @@
+.instruction-content{
+    background-image: url('../../images/bg-5.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 30px;
+}
+
+.instruction-left-content{
+    padding-left: 20%;
+    padding-right: 10%;
+}
+
+.instruction-right-content{
+    
+}
