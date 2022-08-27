@@ -26,7 +26,7 @@ const Instruction = () => {
                                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime tenetur odit dolores ea, itaque iure.</p>
                                     <a href="#">Learn More</a>
                                 </div>
-                                <div>
+                                <div className="instruction-right-content mt-3">
                                     <img src={Configure} alt="" />
                                     <h5>Configure It</h5>
                                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime tenetur odit dolores ea, itaque iure.</p>
@@ -34,7 +34,7 @@ const Instruction = () => {
                                 </div>
                             </div>
                             <div className="col-md-6 align-self-center">
-                                <div>
+                                <div className="instruction-right-content">
                                     <img src={Done} alt="" />
                                     <h5>Yah! Done</h5>
                                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime tenetur odit dolores ea, itaque iure.</p>

@@ -3,7 +3,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 .instruction-left-content{
@@ -12,5 +12,13 @@
 }
 
 .instruction-right-content{
-    
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.instruction-right-content a{
+    color: #f77f00;
+    font-weight: bold;
+    text-decoration: none;
 }
