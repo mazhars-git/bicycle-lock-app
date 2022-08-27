@@ -1,7 +1,13 @@
 
 .service-item-box{
     border-left: 3px solid #f77f00;
+    margin-top: 30px;
 }
 .service-item{
     padding-left: 25px;
+}
+.service-item h4{
+    font-size: 30px;
+    font-weight: 700;
+    color: #4895ef;
 }
