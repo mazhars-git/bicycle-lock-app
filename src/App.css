@@ -37,3 +37,9 @@ ul li a{
   text-decoration: none !important;
   color: rgb(253, 213, 194);
 }
+
+h4{
+    font-weight: 700 !important;
+    color: #4895ef;
+    margin: 15px 0;
+}

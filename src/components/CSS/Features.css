@@ -1,4 +1,15 @@
 
+.line-shape{
+    width: 30px;
+    height: 5px; 
+    color: red;
+}
+
+
+
+
+
+/**---------------feature bottom card section--------------*/
 .feature-bottom{
     position: relative;
     width: 70%;

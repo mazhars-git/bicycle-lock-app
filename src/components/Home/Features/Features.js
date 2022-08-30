@@ -1,28 +1,29 @@
 import React from 'react';
 import Lock from "../../../images/smLock.png";
 import Image from "../../../images/bg-shape.png";
-import "./Features.css";
+import "../../CSS/Features.css";
 
 const Features = () => {
     return (
         <section className="container py-5">
             <div style={{width: "40%"}} className="m-auto text-center">
-                <h4>Smart Lock</h4>
-                <h2>Amazing Features</h2>
+                <h4 className="semi-heading">Smart Lock</h4>
+                <h2 className="small-heading">Amazing Features</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos rem consectetur nobis necessitatibus aliquam alias.</p>
             </div>
             <div className="row pb-5">
                 <div className="col-md-3 text-right">
                     <div>
-                        <h6>Safe and Reliable</h6>
+                        <h4>Safe and Reliable</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, autem?</p>
+                        <span className="line-shape"></span>
+                    </div>
+                    <div>
+                        <h4>Safe and Reliable</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, autem?</p>
                     </div>
                     <div>
-                        <h6>Safe and Reliable</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, autem?</p>
-                    </div>
-                    <div>
-                        <h6>Safe and Reliable</h6>
+                        <h4>Safe and Reliable</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, autem?</p>
                     </div>
                 </div>
@@ -31,15 +32,15 @@ const Features = () => {
                 </div>
                 <div className="col-md-3">
                     <div>
-                        <h6>Safe and Reliable</h6>
+                        <h4>Safe and Reliable</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, autem?</p>
                     </div>
                     <div>
-                        <h6>Safe and Reliable</h6>
+                        <h4>Safe and Reliable</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, autem?</p>
                     </div>
                     <div>
-                        <h6>Safe and Reliable</h6>
+                        <h4>Safe and Reliable</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, autem?</p>
                     </div>
                 </div>
