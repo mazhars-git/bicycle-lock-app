@@ -33,14 +33,14 @@ const Features = () => {
                             <span className="line-shape2"></span>
                         </div>                        
                     </div>
-                    <div>
+                    <div className='content-box3'>
                         <div className="pr-3">
                             <h4>Safe and Reliable</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, autem?</p>
                         </div>                        
                         <div className="shape-box pr-2">
-                            <span className="circle-shape"></span>
-                            <span className="line-shape"></span>
+                            <span className="circle-shape3"></span>
+                            <span className="line-shape3"></span>
                         </div>                        
                     </div>
                 </div>
