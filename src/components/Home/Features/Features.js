@@ -12,9 +12,9 @@ const Features = () => {
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos rem consectetur nobis necessitatibus aliquam alias.</p>
             </div>
             <div className="row pb-5">
-                <div className="col-md-3 text-right align-self-center">
+                <div className="col-md-4 text-right align-self-center">
                     <div className='content-box1'>
-                        <div className="pr-3">
+                        <div className="pr-4">
                             <h4>Safe and Reliable</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, autem?</p>
                         </div>                        
@@ -34,7 +34,7 @@ const Features = () => {
                         </div>                        
                     </div>
                     <div className='content-box3'>
-                        <div className="pr-3">
+                        <div className="pr-4">
                             <h4>Safe and Reliable</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, autem?</p>
                         </div>                        
@@ -45,11 +45,11 @@ const Features = () => {
                     </div>
                 </div>
 
-                <div className="col-md-6">
+                <div className="col-md-4">
                     <img className="img-fluid" src={Lock} alt="" />
                 </div>
 
-                <div className="col-md-3 align-self-center">
+                <div className="col-md-4 align-self-center">
                     <div>
                         <h4>Safe and Reliable</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, autem?</p>

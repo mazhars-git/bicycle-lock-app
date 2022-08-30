@@ -5,7 +5,7 @@
 .shape-box{
     align-items: center;
 }
-.circle-shape, .circle-shape3{
+.circle-shape{
     width: 15px;
     height: 15px;
     border-radius: 50%; 
@@ -14,7 +14,7 @@
     top: 6px;
     margin-left: 10px;
 }
-.line-shape, .line-shape3{
+.line-shape{
     width: 60px;
     height: 4px; 
     background-color: red;
@@ -38,6 +38,23 @@
     position: absolute;
     top: 6px;
     margin-left: -30px;
+}
+.line-shape3{
+    width: 60px;
+    height: 4px; 
+    background-color: red;
+    position: absolute;
+    top: 12px;
+    margin-left: -18px;
+}
+.circle-shape3{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%; 
+    background-color: red;
+    position: absolute;
+    top: 6px;
+    margin-left: -22px;
 }
 
 
