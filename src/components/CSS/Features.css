@@ -1,12 +1,39 @@
+.content-box1{
+    position: relative;
+}
+.content-box2{
+    position: relative;
+}
 
-.line-shape{
-    width: 50px;
+.shape-box{
+    align-items: center;
+}
+.circle-shape, .circle-shape2{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%; 
+    background-color: red;
+    position: absolute;
+    top: 6px;
+    margin-left: 10px;
+}
+.line-shape, .line-shape2{
+    width: 60px;
     height: 4px; 
     background-color: red;
     position: absolute;
-    top: 10px;
-    margin-left: 10px;
+    top: 12px;
+    margin-left: 20px;
 }
+.line-shape2{
+    width: 60px;
+    height: 4px; 
+    background-color: red;
+    position: absolute;
+    top: 12px;
+    margin-left: -5px;
+}
+
 
 
 

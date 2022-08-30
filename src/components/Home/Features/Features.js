@@ -12,25 +12,44 @@ const Features = () => {
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos rem consectetur nobis necessitatibus aliquam alias.</p>
             </div>
             <div className="row pb-5">
-                <div className="col-md-3 text-right">
-                    <div>
-                        <h4>Safe and Reliable</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, autem?</p>
-                        <span className="line-shape"></span>
+                <div className="col-md-3 text-right align-self-center">
+                    <div className='content-box1'>
+                        <div className="pr-3">
+                            <h4>Safe and Reliable</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, autem?</p>
+                        </div>                        
+                        <div className="shape-box pr-2">
+                            <span className="circle-shape"></span>
+                            <span className="line-shape"></span>
+                        </div>                        
+                    </div>
+                    <div className='content-box2'>
+                        <div className="pr-5">
+                            <h4>Safe and Reliable</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, autem?</p>
+                        </div>                        
+                        <div className="shape-box pr-2">
+                            <span className="circle-shape2"></span>
+                            <span className="line-shape2"></span>
+                        </div>                        
                     </div>
                     <div>
-                        <h4>Safe and Reliable</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, autem?</p>
-                    </div>
-                    <div>
-                        <h4>Safe and Reliable</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, autem?</p>
+                        <div className="pr-3">
+                            <h4>Safe and Reliable</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, autem?</p>
+                        </div>                        
+                        <div className="shape-box pr-2">
+                            <span className="circle-shape"></span>
+                            <span className="line-shape"></span>
+                        </div>                        
                     </div>
                 </div>
+
                 <div className="col-md-6">
                     <img className="img-fluid" src={Lock} alt="" />
                 </div>
-                <div className="col-md-3">
+
+                <div className="col-md-3 align-self-center">
                     <div>
                         <h4>Safe and Reliable</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, autem?</p>
