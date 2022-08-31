@@ -51,7 +51,7 @@ const Features = () => {
 
                 <div className="col-md-4 align-self-center">
                     <div className='content-box1'>
-                        <div className="pr-4">
+                        <div className="right-content">
                             <h4>Safe and Reliable</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, autem?</p>
                         </div>                        
@@ -61,7 +61,7 @@ const Features = () => {
                         </div>                        
                     </div>
                     <div className='content-box2'>
-                        <div className="">
+                        <div className="right-content-2">
                             <h4>Safe and Reliable</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, autem?</p>
                         </div>                        
@@ -71,7 +71,7 @@ const Features = () => {
                         </div>                        
                     </div>
                     <div className='content-box3'>
-                        <div className="content-3">
+                        <div className="right-content-3">
                             <h4>Safe and Reliable</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, autem?</p>
                         </div>                        

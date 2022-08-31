@@ -61,7 +61,9 @@
 .circle-right{
     margin-right: 10px;
 }
-.circle-right2{}
+.circle-right2{
+    margin-left: 20px;
+}
 .circle-right3{
     margin-left: 10px;
 }
@@ -77,12 +79,22 @@
 .line-right{
     margin-left: -55px;
 }
-.line-right2{}
+.line-right2{
+    margin-left: -25px;
+}
 .line-right3{
     margin-left: -35px;
 }
 
-
+.right-content{
+    margin-left: 20px;
+}
+.right-content-2{
+    margin-left: 60px;
+}
+.right-content-3{
+    margin-left: 30px;
+}
 
 
 
