@@ -56,8 +56,14 @@
     border-radius: 50%; 
     background-color: red;
     position: absolute;
-    top: 6px;  
-    margin-left: 50px;  
+    top: 6px; 
+}
+.circle-right{
+    margin-right: 10px;
+}
+.circle-right2{}
+.circle-right3{
+    margin-left: 10px;
 }
 
 .line-right, .line-right2, .line-right3{
@@ -68,6 +74,13 @@
     top: 12px;
 }
 
+.line-right{
+    margin-left: -55px;
+}
+.line-right2{}
+.line-right3{
+    margin-left: -35px;
+}
 
 
 
