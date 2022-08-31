@@ -24,7 +24,7 @@ const Features = () => {
                         </div>                        
                     </div>
                     <div className='content-box2'>
-                        <div className="pr-5">
+                        <div className="content-2">
                             <h4>Safe and Reliable</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, autem?</p>
                         </div>                        
@@ -34,7 +34,7 @@ const Features = () => {
                         </div>                        
                     </div>
                     <div className='content-box3'>
-                        <div className="pr-4">
+                        <div className="content-3">
                             <h4>Safe and Reliable</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, autem?</p>
                         </div>                        
