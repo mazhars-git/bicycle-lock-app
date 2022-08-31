@@ -18,3 +18,14 @@
     margin-left: -50px;
     font-weight: bold;
 }
+
+.video-timer{
+    align-items: center;
+}
+.video-timeline{
+    width: 70%;
+    height: 10px;
+    background-color: #f77f00;
+    border-radius: 10px;
+
+}

@@ -1,3 +1,5 @@
+import { faPauseCircle, faPlay, faPlayCircle } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import Cycle from '../../../images/cycle-bg.png';
 import '../../CSS/Subscription.css';
@@ -18,6 +20,18 @@ const Subscription = () => {
 
             <div className="m-auto w-75">
                 <img className="img-fluid" src={Cycle} alt="" />
+                <div className='play-btn'>
+                    <FontAwesomeIcon icon={faPlayCircle} />
+                    <h2>Watch Video Now</h2>
+                </div>
+                <div className='video-timer d-flex'>
+                    <FontAwesomeIcon icon={faPlay} />
+                    <div>
+                        <p>Paused</p>
+                        <p>01m 30s remaining</p>
+                    </div>                    
+                    <div className='video-timeline'></div>
+                </div>
             </div>
         </section>
     );
