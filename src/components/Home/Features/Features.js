@@ -19,8 +19,8 @@ const Features = () => {
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, autem?</p>
                         </div>                        
                         <div className="shape-box pr-2">
-                            <span className="circle-shape"></span>
-                            <span className="line-shape"></span>
+                            <span className="circle-left"></span>
+                            <span className="line-left"></span>
                         </div>                        
                     </div>
                     <div className='content-box2'>
@@ -29,8 +29,8 @@ const Features = () => {
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, autem?</p>
                         </div>                        
                         <div className="shape-box pr-2">
-                            <span className="circle-shape2"></span>
-                            <span className="line-shape2"></span>
+                            <span className="circle-left2"></span>
+                            <span className="line-left2"></span>
                         </div>                        
                     </div>
                     <div className='content-box3'>
@@ -39,8 +39,8 @@ const Features = () => {
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, autem?</p>
                         </div>                        
                         <div className="shape-box pr-2">
-                            <span className="circle-shape3"></span>
-                            <span className="line-shape3"></span>
+                            <span className="circle-left3"></span>
+                            <span className="line-left3"></span>
                         </div>                        
                     </div>
                 </div>
@@ -50,17 +50,35 @@ const Features = () => {
                 </div>
 
                 <div className="col-md-4 align-self-center">
-                    <div>
-                        <h4>Safe and Reliable</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, autem?</p>
+                    <div className='content-box1'>
+                        <div className="pr-4">
+                            <h4>Safe and Reliable</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, autem?</p>
+                        </div>                        
+                        <div className="shape-box">
+                            <span className="circle-right"></span>
+                            <span className="line-right"></span>
+                        </div>                        
                     </div>
-                    <div>
-                        <h4>Safe and Reliable</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, autem?</p>
+                    <div className='content-box2'>
+                        <div className="">
+                            <h4>Safe and Reliable</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, autem?</p>
+                        </div>                        
+                        <div className="shape-box">
+                        <span className="circle-right2"></span>
+                            <span className="line-right2"></span>
+                        </div>                        
                     </div>
-                    <div>
-                        <h4>Safe and Reliable</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, autem?</p>
+                    <div className='content-box3'>
+                        <div className="content-3">
+                            <h4>Safe and Reliable</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, autem?</p>
+                        </div>                        
+                        <div className="shape-box pr-2">
+                            <span className="circle-right3"></span>
+                            <span className="line-right3"></span>
+                        </div>                        
                     </div>
                 </div>
             </div>

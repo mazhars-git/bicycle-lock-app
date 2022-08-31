@@ -11,57 +11,63 @@
 .content-3{
     margin-right: 35px;
 }
-.circle-shape{
+.circle-left, .circle-left2, .circle-left3{
     width: 15px;
     height: 15px;
     border-radius: 50%; 
     background-color: red;
     position: absolute;
-    top: 6px;
+    top: 6px;    
+}
+
+.circle-left{
     margin-left: 8px;
 }
-.line-shape{
-    width: 60px;
-    height: 4px; 
-    background-color: red;
-    position: absolute;
-    top: 12px;
-    margin-left: 15px;
-}
-.line-shape2{
-    width: 60px;
-    height: 4px; 
-    background-color: red;
-    position: absolute;
-    top: 12px;
-    margin-left: -25px;
-}
-.circle-shape2{
-    width: 15px;
-    height: 15px;
-    border-radius: 50%; 
-    background-color: red;
-    position: absolute;
-    top: 6px;
+.circle-left2{
     margin-left: -30px;
 }
-.line-shape3{
+.circle-left3{
+    margin-left: -22px;
+}
+
+
+.line-left, .line-left2, .line-left3{
     width: 60px;
     height: 4px; 
     background-color: red;
     position: absolute;
     top: 12px;
+}
+.line-left{
+    margin-left: 15px;
+}
+.line-left2{
+    margin-left: -25px;
+}
+.line-left3{
     margin-left: -18px;
 }
-.circle-shape3{
+
+/*--------------right shape-------------**/
+
+.circle-right, .circle-right2, .circle-right3{
     width: 15px;
     height: 15px;
     border-radius: 50%; 
     background-color: red;
     position: absolute;
-    top: 6px;
-    margin-left: -22px;
+    top: 6px;  
+    margin-left: 50px;  
 }
+
+.line-right, .line-right2, .line-right3{
+    width: 60px;
+    height: 4px; 
+    background-color: red;
+    position: absolute;
+    top: 12px;
+}
+
 
 
 
