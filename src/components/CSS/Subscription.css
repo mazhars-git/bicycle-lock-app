@@ -19,13 +19,27 @@
     font-weight: bold;
 }
 
+.video-section{
+    position: relative;
+}
+.play-btn{
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    left: 30%;
+    top: 50%;
+    z-index: 10;
+}
 .video-timer{
+    position: absolute;
     align-items: center;
+    bottom: 0;
+    color: #fff;
+   
 }
 .video-timeline{
     width: 70%;
     height: 10px;
     background-color: #f77f00;
     border-radius: 10px;
-
 }
