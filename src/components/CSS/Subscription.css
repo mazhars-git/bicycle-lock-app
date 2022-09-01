@@ -35,10 +35,24 @@
     align-items: center;
     bottom: 0;
     color: #fff;
+}
+.video-timer .paused-icon{
+    background-color: gray;
+    margin: 20px;
+    padding: 10px 25px;
    
+    border: 1px solid #f77f00;
+}
+
+.paused{
+    margin-left: 15px;
+}
+.paused p{
+    margin: 0;
 }
 .video-timeline{
-    width: 70%;
+    margin-left: 15px;
+    width: 450px;
     height: 10px;
     background-color: #f77f00;
     border-radius: 10px;

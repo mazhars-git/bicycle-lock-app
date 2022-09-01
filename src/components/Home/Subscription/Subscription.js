@@ -27,8 +27,11 @@ const Subscription = () => {
                             <h2>Watch Video Now</h2>
                         </div>
                         <div className='video-timer d-flex'>
-                            <FontAwesomeIcon icon={faPlay} />
-                            <div>
+                            <div className="paused-icon">
+                                <FontAwesomeIcon icon={faPlay} />
+                            </div>
+                            
+                            <div className='paused'>
                                 <p>Paused</p>
                                 <p>01m 30s remaining</p>
                             </div>                    
