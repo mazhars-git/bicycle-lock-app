@@ -26,9 +26,18 @@
     position: absolute;
     color: #fff;
     text-align: center;
-    left: 30%;
-    top: 50%;
+    left: 35%;
+    top: 30%;
     z-index: 10;
+}
+
+.play-btn .play-icon{
+    font-size: 55px;
+    color: #f77f00;
+    background-color: #fff;
+    padding: 0px;
+    border-radius: 50%;
+
 }
 .video-timer{
     position: absolute;
@@ -40,7 +49,6 @@
     background-color: gray;
     margin: 20px;
     padding: 10px 25px;
-   
     border: 1px solid #f77f00;
 }
 

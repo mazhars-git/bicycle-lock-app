@@ -23,7 +23,7 @@ const Subscription = () => {
                     <div className="video-section">
                         <img className="img-fluid" src={Cycle} alt="" />
                         <div className='play-btn'>
-                            <FontAwesomeIcon icon={faPlayCircle} />
+                            <FontAwesomeIcon className="play-icon" icon={faPlayCircle} />
                             <h2>Watch Video Now</h2>
                         </div>
                         <div className='video-timer d-flex'>
