@@ -19,7 +19,7 @@ const Subscription = () => {
                     </div>
                 </div>
 
-                <div className="m-auto w-75">
+                <div className="d-flex justify-content-center">
                     <div className="video-section">
                         <img className="img-fluid" src={Cycle} alt="" />
                         <div className='play-btn'>
