@@ -37,7 +37,8 @@
     background-color: #fff;
     padding: 0px;
     border-radius: 50%;
-
+    margin-bottom: 15px;
+    cursor: pointer;
 }
 .video-timer{
     position: absolute;
@@ -50,6 +51,7 @@
     margin: 20px;
     padding: 10px 25px;
     border: 1px solid #f77f00;
+    cursor: pointer;
 }
 
 .paused{
@@ -60,8 +62,16 @@
 }
 .video-timeline{
     margin-left: 15px;
-    width: 450px;
+    width: 530px;
+    height: 10px;
+    background-color: #a8a8a7;
+    border-radius: 10px;
+}
+.video-timeline2{
+    margin-left: 15px;
+    width: 420px;
     height: 10px;
     background-color: #f77f00;
     border-radius: 10px;
+    position: absolute;
 }

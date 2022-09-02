@@ -34,8 +34,12 @@ const Subscription = () => {
                             <div className='paused'>
                                 <p>Paused</p>
                                 <p>01m 30s remaining</p>
+                            </div>
+                            <div className="d-flex flex-column">
+                                <div className='video-timeline'></div>
+                                <div className='video-timeline2'></div>
                             </div>                    
-                            <div className='video-timeline'></div>
+                            
                         </div>
                     </div>
                 </div>
