@@ -26,8 +26,8 @@
     position: absolute;
     color: #fff;
     text-align: center;
-    left: 35%;
-    top: 30%;
+    left: 38%;
+    top: 35%;
     z-index: 10;
 }
 
@@ -62,14 +62,14 @@
 }
 .video-timeline{
     margin-left: 15px;
-    width: 530px;
+    width: 620px;
     height: 10px;
     background-color: #a8a8a7;
     border-radius: 10px;
 }
 .video-timeline2{
     margin-left: 15px;
-    width: 420px;
+    width: 60%;
     height: 10px;
     background-color: #f77f00;
     border-radius: 10px;
