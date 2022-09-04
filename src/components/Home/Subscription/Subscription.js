@@ -21,7 +21,9 @@ const Subscription = () => {
 
                 <div className="d-flex justify-content-center">
                     <div className="video-section">
-                        <img className="img-fluid" src={Cycle} alt="" />
+                        <div>
+                            <img className="img-fluid" src={Cycle} alt="" />
+                        </div>                        
                         <div className='play-btn'>
                             <FontAwesomeIcon className="play-icon" icon={faPlayCircle} />
                             <h2>Watch Video Now</h2>
