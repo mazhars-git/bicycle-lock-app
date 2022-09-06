@@ -10,11 +10,11 @@ const Footer = () => {
         <section className="footer-area">
             <div className="container footer-content pt-5">
                 <div className="row footer">
-                    <div className="col-md-4 logo-box">
+                    <div className="col-sm-6 col-md-4 logo-box">
                         <img src={Logo} alt="" />
                         <p>Lorem ipsum dolor, sit amet consectetur suscipi exercitationem molestiae, totam corrupti similique at accusamus neque earum?</p>
                     </div>
-                    <div className="col-md-2">
+                    <div className="col-sm-6 col-md-2">
                         <h2 className="semi-header">Company</h2>
                         <ul>
                             <li><a href="#">Oedering Info</a></li>  
@@ -22,7 +22,7 @@ const Footer = () => {
                             <li><a href="#">Peste & Weeds Control</a></li>  
                         </ul> 
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-sm-6 col-md-3">
                         <h2 className="semi-header">Useful Links</h2>
                         <div className="row">
                             <div className="col-md-5">
@@ -43,7 +43,7 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-sm-6 col-md-3">
                         <h2 className="semi-header">Newsletters</h2>
                         <div className="d-flex">
                             <input className="news-letter-input" type="text" placeholder="Enter Your Email"></input>

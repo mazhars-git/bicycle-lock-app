@@ -21,7 +21,7 @@ const Subscription = () => {
 
                 <div className="d-flex justify-content-center">
                     <div className="video-section">
-                        <div>
+                        <div className="video-img">
                             <img className="img-fluid" src={Cycle} alt="" />
                         </div>                        
                         <div className='play-btn'>
